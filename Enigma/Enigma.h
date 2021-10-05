@@ -1,4 +1,4 @@
-//Jakub Bronicki 2016
+//jakubx96 2016
 #pragma once
 
 namespace Enigma {
@@ -339,7 +339,7 @@ namespace Enigma {
 			this->linkLabel1->Size = System::Drawing::Size(136, 17);
 			this->linkLabel1->TabIndex = 29;
 			this->linkLabel1->TabStop = true;
-			this->linkLabel1->Text = L"Jakub Bronicki 2016";
+			this->linkLabel1->Text = L"jakubx96 2016";
 			this->linkLabel1->VisitedLinkColor = System::Drawing::Color::Black;
 			this->linkLabel1->LinkClicked += gcnew System::Windows::Forms::LinkLabelLinkClickedEventHandler(this, &Enigma::linkLabel1_LinkClicked);
 			// 
@@ -572,7 +572,7 @@ private: System::Void button3_Click(System::Object^  sender, System::EventArgs^ 
 		textBox6->Text = "";
 	}
 private: System::Void linkLabel1_LinkClicked(System::Object^  sender, System::Windows::Forms::LinkLabelLinkClickedEventArgs^  e) {
-	System::Diagnostics::Process::Start("http://www.facebook.com/jakubx6");
+	System::Diagnostics::Process::Start("http://www.facebook.com");
 }
 private: System::Void panel1_Paint(System::Object^  sender, System::Windows::Forms::PaintEventArgs^  e) {
 }
